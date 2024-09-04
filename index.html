@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Based Frame Interpolation Model</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <header class="navigation">
+    <nav class="navbar">
+      <div class="logo">
+        <img src="Assets/teamlogo.png" alt="Logo" />
+      </div>
+      <ul class="nav-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#upload-section">Upload</a></li>
+        <li><a href="#team">Team</a></li>
+        <li><a href="#github">Github</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <div class="container">
+    <div class="header">
+      <h1>AI based Frame Interpolation Model</h1>
+      <p>
+        <strong>Goal:</strong><br />> Auto-generate videos from WMS satellite
+        imagery using AI-based frame interpolation and display them on Open
+        Layers/Leaflet maps.
+      </p>
+      <p>
+        <strong>Key Features:</strong><br />> Smooth interpolation between
+        regular intervals (e.g., every minute).<br />> Handles challenges like
+        deformable objects (e.g., clouds).
+      </p>
+      <p>
+        <strong>Outcome:</strong><br />> Compatible with OGC WMS, overlays
+        videos on Open Layers (v6+), with optional GPU/NPU utilization.
+      </p>
+    </div>
+    <section id="upload-section">
+      <div class="upload-section" id="">
+        <div class="frame-container">
+          <div class="a">
+            <label for="frame1">Frame 1</label>
+            <input type="file" id="frame1" />
+          </div>
+
+          <div class="b">
+            <label for="frame2">Frame 2</label>
+            <input type="file" id="frame2" />
+          </div>
+        </div>
+        <div class="frames-options">
+          <label for="num-frames">Number of frames</label>
+          <select id="num-frames">
+            <option value="2" selected>2x</option>
+            <option value="8">8x</option>
+            <option value="16">16x</option>
+            <option value="24">24x</option>
+            <option value="32">32x</option>
+          </select>
+        </div>
+        <button id="generate-video">Generate Video</button>
+      </div>
+    </section>
+    <div class="video-container">
+      <video id="video-player" controls></video>
+    </div>
+    <section id="team" style="align-items: center">
+      <h1 style="margin-top: 15%; margin-left: 10%">Our Team</h1>
+      <div class="cards" style="margin-top: -1%; margin-left: 10%">
+        <div class="profile-card" style="margin-right: 5%">
+          <img src="Assets/akshat.png" alt="Profile Picture" class="profile-pic" />
+          <h2 class="name">Akshat Kestwal</h2>
+          <p class="title">Team Leader</p>
+        </div>
+        <div class="profile-card" style="margin-right: 5%">
+          <img src="Assets/vaibhav.png" alt="Profile Picture" class="profile-pic" />
+          <h2 class="name">Vaibhav Pokhriyal</h2>
+          <p class="title">Developer</p>
+        </div>
+        <div class="profile-card">
+          <img src="Assets/ayush.png" alt="Profile Picture" class="profile-pic" />
+          <h2 class="name">Ayush Dwivedi</h2>
+          <p class="title">Developer & Designer</p>
+        </div>
+      </div>
+      <div class="cards" style="margin-top: -2%; margin-left: 10%">
+        <div class="profile-card" style="margin-right: 5%">
+          <img src="Assets/paras.png" alt="Profile Picture" class="profile-pic" />
+          <h2 class="name">Paras Sundriyal</h2>
+          <p class="title">Multimedia Developer</p>
+        </div>
+        <div class="profile-card" style="margin-right: 5%">
+          <img src="Assets/gauri.png" alt="Profile Picture" class="profile-pic" />
+          <h2 class="name">Gauri Panwar</h2>
+          <p class="title">Insights Strategist</p>
+        </div>
+        <div class="profile-card">
+          <img src="https://via.placeholder.com/150" alt="Profile Picture" class="profile-pic" />
+          <h2 class="name">Mayank Kaintura</h2>
+          <p class="title">Team Coordinator</p>
+        </div>
+      </div>
+    </section>
+    <section id="github">
+      <h2>
+        <a style="font-weight: 300; color: white" href="#">Our Github Repo</a>
+      </h2>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+
+</html>

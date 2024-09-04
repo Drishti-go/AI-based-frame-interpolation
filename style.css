@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+
+/* Use the font in your CSS */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    /* font-family: Arial, sans-serif; */
+    /* background-color: #1C2A4A; */
+    
+    background: linear-gradient(to bottom, #2F548B, #0E1826);
+    /* background-image: url('Assets/،˓\ ִ☆៹·˳ʾ\ OVERLAY\ 𝄪\ ⋆.png'); */
+    color: #FFFFFF;
+}
+.navigation{
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+  }
+  
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .logo img {
+    width: 200px;
+    height: 100px;
+    
+  }
+  
+  .logo h1 {
+    display: inline;
+    font-size: 1.5rem;
+    margin-left: 0.5rem;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .nav-links li {
+    display: inline;
+  }
+  
+  .nav-links a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  
+  .nav-links a:hover {
+    text-decoration: underline;
+  }
+  
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    align-items: center;
+    background-size: contain;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    border-radius: 10px ;
+    background-image: url('Assets/overlay.png');
+    padding: 20px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.header h1 {
+    font-size: 2em;
+    margin-bottom: 35px;
+}
+
+.header p {
+    font-size: 1.0em;
+    margin: 10px 0;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+
+.upload-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    background-color: #161B37;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 30px;
+}
+
+.frame-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* margin: 2%; */
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.frame-container label {
+    /* display: block; */
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+.a,.b{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly
+    ;
+    padding: 5px 0 15px 5px ;
+    margin: 10px;
+    border:  1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    box-shadow: 2px 2px rgba(255, 255, 255, 0.658);
+}
+
+.frames-options {
+    margin: 15px;
+    text-align: center;
+}
+
+.frames-options label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 1.2em;
+    border: none;
+    border-radius: 5px;
+    background-color: #000000;
+    color: #FFFFFF;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+button:hover {
+    background-color: #333333;
+}
+
+.video-container {
+    background-color: #D9D9D9;
+    padding: 5px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+video {
+    width: 100%;
+    border-radius: 5px;
+    /* border: 1px solid #FF0000; */
+}
+.profile-card {
+    background-color: #e0e0e0; /* Card background color */
+    border-radius: 15px; /* Rounded corners */
+    text-align: center;
+    padding: 20px;
+    /* margin: 5%; */
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+
+  .profile-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 15px;
+  }
+
+  .name {
+    font-size: 18px;
+    font-weight: 600; /* Semi-bold */
+    margin: 10px 0;
+    color: #333;
+  }
+
+  .title {
+    font-size: 20px;
+    font-weight: 400; /* Normal */
+    color: #666;
+  }
+  .cards{
+    display: flex;
+    flex-direction: row;
+    margin: 5%;
+    align-content:space-between ;
+    justify-items: center;
+    width: 80%;
+  }
